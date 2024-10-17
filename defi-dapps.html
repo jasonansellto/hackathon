@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- required meta -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- #favicon -->
+   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+   <!-- #title -->
+   <title>DeFi - Hackathon Information</title>
+   <!-- #keywords -->
+   <meta name="keywords" content="defi, decentralized, hackathon">
+   <!-- #description -->
+   <meta name="description" content="Build defi applications (dApps) on the Vector Smart Chain.">
+   <!-- ==== css dependencies start ==== -->
+   <!-- bootstrap five css -->
+   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+   <!-- glyphter css -->
+   <link rel="stylesheet" href="assets/vendor/glyyphter/css/xpovio.css">
+   <!-- font awesome six css -->
+   <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.css">
+   <!-- nice select css -->
+   <link rel="stylesheet" href="assets/vendor/nice-select/css/nice-select.css">
+   <!-- magnific popup css -->
+   <link rel="stylesheet" href="assets/vendor/magnific-popup/css/magnific-popup.css">
+   <!-- slick css -->
+   <link rel="stylesheet" href="assets/vendor/slick/css/slick.css">
+   <!-- ==== / css dependencies end ==== -->
+   <!-- main css -->
+   <link rel="stylesheet" href="assets/css/main.min.css">
+</head>
+
+<body>
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+   <div class="my-app">
+      <!-- ==== preloader start ==== -->
+      <div id="preloader">
+         <div id="loader"></div>
+      </div>
+      <!-- ==== / preloader end ==== -->
+      <!-- ==== mouse cursor drag start ==== -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner">
+         <span>Drag</span>
+      </div>
+      <!-- ==== / mouse cursor drag end ==== -->
+      <!-- ==== header start ==== -->
+      <header class="header">
+         <div class="primary-navbar cmn-nav">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <nav class="navbar p-0">
+                        <div class="navbar__logo">
+                           <a href="index.html" aria-label="go to home">
+                              <img src="assets/images/logo.png" alt="Image">
+                           </a>
+                        </div>
+                        <div class="navbar__menu">
+                           <ul >
+                           <li class="navbar__item nav-fade">
+                              <a href="index.html">Home</a>
+                           </li>
+                           <li class="navbar__item nav-fade">
+                              <a href="#">About Event</a>
+                           </li>
+                           <li class="navbar__item navbar__item--has-children nav-fade">
+                              <a href="javascript:void(0)" aria-label="dropdown menu" class="navbar__dropdown-label">Project Categories</a>
+                              <ul class="navbar__sub-menu">
+                                 <li>
+                                    <a href="defi-dapps.html">DeFi</a>
+                                 </li>
+                                 <li>
+                                    <a href="nft-dapps.html">NFTs</a>
+                                 </li>
+                                 <li>
+                                    <a href="ai-dapps.html">Ai</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="navbar__item navbar__item--has-children nav-fade">
+                              <a href="javascript:void(0)" aria-label="dropdown menu" class="navbar__dropdown-label">Build on Testnet</a>
+                              <ul class="navbar__sub-menu">
+                                 <li>
+                                    <a href="https://vsgofficial.com/launch-of-the-vector-smart-chain-vsc-testnet-step-by-step-guide-to-connecting-using-web3-wallets/">How To Connect To Testnet</a>
+                                 </li>
+                                 <li>
+                                    <a href="https://vsgofficial.com/how-to-access-the-vector-smart-chain-vsc-testnet-faucet-via-telegram/">How To Use VSG Faucet</a>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                        </div>
+                        <div class="navbar__options">
+                           <div class="navbar__mobile-options d-none d-sm-flex">
+                              <a href="https://forms.gle/SmfGYxsouHCms4v27" class="btn btn--secondary">Submit Project</a>
+                           </div>
+                           <button class="open-mobile-menu d-flex d-xl-none" aria-label="toggle mobile menu">
+                              <i class="fa-light fa-bars-staggered"></i>
+                           </button>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+            <!-- ==== mobile menu start ==== -->
+            <div class="mobile-menu">
+               <nav class="mobile-menu__wrapper">
+                  <div class="mobile-menu__header nav-fade">
+                     <div class="logo">
+                        <a href="index.html">
+                           <img src="assets/images/logo.png" alt="" title="">
+                        </a>
+                     </div>
+                     <a href="javascript:void(0)" aria-label="close mobile menu" class="close-mobile-menu">
+                        <i class="fa-light fa-xmark-large"></i>
+                     </a>
+                  </div>
+                  <div class="mobile-menu__list"></div>
+                  <div class="mobile-menu__options d-flex d-sm-none justify-content-center nav-fade"></div>
+                  <div class="mobile-menu__social social nav-fade">
+                     <a href="https://t.me/vsgportal" target="_blank" aria-label="join us on telegram">
+                        <i class="fa-brands fa-telegram"></i>
+                     </a>
+                     <a href="https://x.com/vectorcoin" target="_blank" aria-label="follow us on twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                     </a>
+                  </div>
+               </nav>
+            </div>
+            <div class="mobile-menu__backdrop"></div>
+            <!-- ==== / mobile menu end ==== -->
+         </div>
+      </header>
+      <!-- ==== / header end ==== -->
+      <div id="smooth-wrapper">
+         <div id="smooth-content">
+            <!-- ==== main start ==== -->
+            <main>
+               <!-- ==== banner start ==== -->
+               <section class="cmn-banner service-single-banner bg-img"
+                  data-background="assets/images/banner/cmn-banner-bg.png">
+                  <div class="container">
+                     <div class="row gaper align-items-center">
+                        <div class="col-12 col-lg-5 col-xl-7">
+                           <div class="text-center text-lg-start">
+                              <h2 class="title title-anim">DeFi dApps</h2>
+                              <nav aria-label="breadcrumb">
+                                 <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                       <a href="index.html">
+                                          <i class="fa-solid fa-house"></i>
+                                          Home
+                                       </a>
+                                    </li>
+                                    <li class="breadcrumb-item active" aria-current="page">
+                                       DeFi
+                                    </li>
+                                 </ol>
+                              </nav>
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-7 col-xl-5">
+                           <div class="slide-group justify-content-center justify-content-lg-end">
+                              <a href="service-single.html" aria-label="previous item" class="slide-btn ">
+                                 <i class="fa-light fa-angle-left"></i>
+                              </a>
+                              <a href="service-single.html" aria-label="next item" class="slide-btn">
+                                 <i class="fa-light fa-angle-right"></i>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- ==== / banner end ==== -->
+               <!-- ==== service details start ==== -->
+               <section class="section service-details fade-wrapper">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-12 col-xl-10">
+                           <div class="service-details__slider">
+                              <div class="service-details__slider-single">
+                                 <div class="poster fade-top">
+                                    <img src="assets/images/service/thumb-one.png" alt="Image">
+                                 </div>
+                                 <div class="details-group section__cta text-start">
+                                    <h3 class="title-anim">Unlock the Future of Finance with DeFi</h3>
+                                    <p>
+                                       Decentralized Finance (DeFi) is reshaping the global financial system by eliminating intermediaries and enabling open, permissionless access to financial services. Whether it’s lending, borrowing, trading, or earning yield, DeFi on Vector Smart Chain (VSC) offers endless possibilities. Build scalable, secure applications that can democratize finance for everyone, and take part in the revolution that’s disrupting traditional financial models.
+                                    </p>
+                                    <p>
+                                       From liquidity pools to decentralized exchanges, DeFi dApps are at the heart of the financial ecosystem of the future. As a developer, you can create applications that redefine how people interact with money, assets, and financial services. Whether you’re building a DeFi lending platform, yield farming protocol, or a decentralized insurance solution, VSC provides the tools, security, and scalability you need to succeed.
+                                    </p>
+                                 </div>
+                                 <div class="section__content-cta">
+                                    <div class="row gaper">
+                                       <div class="col-12 col-lg-7">
+                                          <div class="details-group">
+                                             <h3 class="title-anim">Why DeFi on VSC?</h3>
+                                             <p>
+                                                The power of DeFi is amplified on VSC, a blockchain built for speed, efficiency, and low transaction costs. With VSC’s high-performance infrastructure, developers can build dApps that handle millions of users without compromising security or decentralization. By leveraging VSC's advanced smart contracts, developers can create innovative solutions that cater to both consumers and institutions, paving the way for a more inclusive and transparent financial system.
+                                             </p>
+                                          </div>
+                                       </div>
+                                       <div class="col-12 col-lg-5">
+                                          <div class="poster-small">
+                                             <img src="assets/images/service/thumb-two.png" alt="Image">
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- ==== / service details end ==== -->
+               <!-- ==== ux process start ==== -->
+               <section class="section ux-process bg-tertiary fade-wrapper">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8">
+                           <div class="section__header text-center">
+                              <span class="sub-title">
+                                 Developer Challange
+                                 <i class="fa-solid fa-arrow-right"></i>
+                              </span>
+                              <h2 class="title title-anim">defi dapps</h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="service-f-wrapper">
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>Decentralized Exchanges (DEXs)</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>Enable users to trade cryptocurrencies without intermediaries, offering faster and more secure transactions with low fees.</p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>Lending & Borrowing Platforms</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>Allow users to lend or borrow assets through smart contracts, enabling trustless and efficient access to liquidity.</p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>Yield Farming & Staking Protocols</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>Provide users with opportunities to earn passive income by staking tokens or participating in liquidity pools to generate rewards.</p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>Stablecoin Platforms</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>Create stablecoins pegged to real-world assets, offering price stability and a reliable medium for transactions and savings.</p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                              <div class="service-f-single fade-top">
+                                 <div class="single-item">
+                                    <div class="intro-btn">
+                                       <h4>Decentralized Insurance</h4>
+                                    </div>
+                                 </div>
+                                 <div class="single-item p-single p-sm body-cn">
+                                    <p>Develop platforms that offer smart contract-based insurance products, providing protection against risks in a transparent, decentralized manner.</p>
+                                 </div>
+                                 <button class="toggle-service-f"></button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- ==== / ux process end ==== -->
+               <!-- ==== cta start ==== -->
+               <section class="cta-two section">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-12 col-xxl-11">
+                           <div class="cta-two-wrapper bg-img" data-background="assets/images/cta-two-bg.png">
+                              <div class="row gaper align-items-center">
+                                 <div class="col-12 col-lg-8">
+                                    <div class="cta-two__content">
+                                       <span>Build With Us</span>
+                                       <h2 class="title-anim">
+                                          Deploy on VSC!
+                                       </h2>
+                                       <h5>
+                                          <a href="https://vsgofficial.com/launch-of-the-vector-smart-chain-vsc-testnet-step-by-step-guide-to-connecting-using-web3-wallets/">Connect to Testnet</a>
+                                       </h5>
+                                    </div>
+                                 </div>
+                                 <div class="col-12 col-lg-4">
+                                    <div class="text-start text-lg-end">
+                                       <a href="https://forms.gle/SmfGYxsouHCms4v27" class="btn btn--tertiary">
+                                          submit your project
+                                          <i class="fa-sharp fa-solid fa-arrow-up-right"></i>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- ==== / cta end ==== -->
+            </main>
+            <!-- ==== / main end ==== -->
+            <!-- ==== footer start ==== -->
+            <footer class="footer-two footer-cmn section pb-0">
+               <div class="container">
+                  <div class="row gaper">
+                     <div class="col-12 col-lg-5 col-xl-4">
+                        <div class="footer-two__left">
+                           <div class="logo">
+                              <a href="index.html">
+                                 <img src="assets/images/logo.png" alt="Image">
+                              </a>
+                           </div>
+                           <div class="paragraph">
+                              <p>Join developers, innovators, and creators from around the globe in an exciting competition to build decentralized applications (dApps) on Vector (VSC).</p>
+                           </div>
+                           <div class="section__content-cta">
+                              <h2>
+                                 <a href="https://t.me/vsgportal" class="folks-text">t.me/vsgportal</a>
+                              </h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-lg-7 col-xl-7 offset-xl-1 col-xxl-5 offset-xxl-3">
+                        <div class="footer-two__right">
+                           <div class="social justify-content-start justify-content-lg-start">
+                              <a href="https://t.me/vsgportal" target="_blank">
+                                 <i class="fa-brands fa-telegram"></i>
+                                 <span>Telegram</span>
+                              </a>
+                              <a href="https://x.com/vectorcoin" target="_blank">
+                                 <i class="fa-brands fa-twitter"></i>
+                                 <span>Twitter</span>
+                              </a>
+                              <a href="https://www.reddit.com/r/vscblockchain/" target="_blank">
+                                 <i class="fa-brands fa-reddit"></i>
+                                 <span>Reddit</span>
+                              </a>
+                           </div>
+                           <div class="footer__single-meta section__content-cta">
+                              <a href="defi-dapps.html"
+                                 target="_blank">
+                                 <i class="fa-sharp fa-solid fa-bar-chart"></i>
+                                  Decentralized Finance 
+                              </a>
+                              <a href="nft-dapps.html">
+                                 <i class="fa-sharp fa-solid fa-list-ul"></i>
+                                  Non Fungible Tokens
+                              </a>
+                              <a href="ai-dapps.html">
+                                 <i class="fa-sharp fa-solid fa-robot"></i>
+                                  Artificial Intelligence
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__copyright">
+                  <div class="container">
+                     <div class="row align-items-center gaper">
+                        <div class="col-12 col-xl-6">
+                           <div class="footer__copyright-text text-center text-xl-start">
+                                    <p>
+                                       Copyright &copy;
+                                       <span id="copyYear"></span>
+                                       Hackathon by
+                                       <a href="#"
+                                          target="_blank">Vector Smart Chain</a>
+                                       . All Rights Reserved
+                                    </p>
+                           </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                           <ul class="justify-content-center justify-content-xl-end">
+                                 <li>
+                                    <a href="#">About Event</a>
+                                 </li>
+                                 <li>
+                                    <a href="https://forms.gle/SmfGYxsouHCms4v27">Submit a Project</a>
+                                 </li>
+                                 <li>
+                                    <a href="https://vsgofficial.com/launch-of-the-vector-smart-chain-vsc-testnet-step-by-step-guide-to-connecting-using-web3-wallets/">Connect To Testnet</a>
+                                 </li>
+                                 <li>
+                                    <a href="https://vsgofficial.com/how-to-access-the-vector-smart-chain-vsc-testnet-faucet-via-telegram/">VSG Faucet</a>
+                                 </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+            <!-- ==== / footer end ==== -->
+         </div>
+      </div>
+      <!-- ==== scroll to top start ==== -->
+      <button class="progress-wrap" aria-label="scroll indicator" title="go to top">
+         <span></span>
+         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+         </svg>
+      </button>
+      <!-- ==== / scroll to top end ==== -->
+   </div>
+   <!-- ==== js dependencies start ==== -->
+   <!-- jquery -->
+   <script src="assets/vendor/jquery/jquery-3.7.0.min.js"></script>
+   <!-- bootstrap five js -->
+   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <!-- nice select js -->
+   <script src="assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+   <!-- magnific popup js -->
+   <script src="assets/vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+   <!-- slick js -->
+   <script src="assets/vendor/slick/js/slick.min.js"></script>
+   <!-- image loaded js -->
+   <script src="assets/vendor/images-loaded/imagesloaded.pkgd.min.js"></script>
+   <!-- isotope js -->
+   <script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+   <!-- chroma js -->
+   <script src="assets/vendor/gsap/chroma.min.js"></script>
+   <!-- splittext js -->
+   <script src="assets/vendor/gsap/SplitText.min.js"></script>
+   <!-- scrollsmoother js -->
+   <script src="assets/vendor/gsap/ScrollSmoother.min.js"></script>
+   <!-- scrollto js -->
+   <script src="assets/vendor/gsap/ScrollToPlugin.min.js"></script>
+   <!-- scrolltrigger js -->
+   <script src="assets/vendor/gsap/ScrollTrigger.min.js"></script>
+   <!-- gsap js -->
+   <script src="assets/vendor/gsap/gsap.min.js"></script>
+   <!-- vanilla tilt js -->
+   <script src="assets/vendor/vanilla-tilt/tilt.jquery.js"></script>
+   <!-- ==== / js dependencies end ==== -->
+   <!-- plugins js -->
+   <script src="assets/js/plugins.js"></script>
+   <!-- main js -->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
