@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- required meta -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- #favicon -->
+   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+   <!-- #title -->
+   <title>BlockHackathon - Blockchain Hackathon Event</title>
+   <!-- #keywords -->
+   <meta name="keywords" content="blockchain, hackathon, developer">
+   <!-- #description -->
+   <meta name="description" content="Build decentralized applications (dApps) on the Vector Smart Chain.">
+   <!-- ==== css dependencies start ==== -->
+   <!-- bootstrap five css -->
+   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+   <!-- glyphter css -->
+   <link rel="stylesheet" href="assets/vendor/glyyphter/css/xpovio.css">
+   <!-- font awesome six css -->
+   <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.css">
+   <!-- nice select css -->
+   <link rel="stylesheet" href="assets/vendor/nice-select/css/nice-select.css">
+   <!-- magnific popup css -->
+   <link rel="stylesheet" href="assets/vendor/magnific-popup/css/magnific-popup.css">
+   <!-- slick css -->
+   <link rel="stylesheet" href="assets/vendor/slick/css/slick.css">
+   <!-- ==== / css dependencies end ==== -->
+   <!-- main css -->
+   <link rel="stylesheet" href="assets/css/main.min.css">
+</head>
+
+<body>
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+   <div class="my-app">
+      <!-- ==== preloader start ==== -->
+      <div id="preloader">
+         <div id="loader"></div>
+      </div>
+      <!-- ==== / preloader end ==== -->
+      <!-- ==== mouse cursor drag start ==== -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner">
+         <span>Drag</span>
+      </div>
+      <!-- ==== / mouse cursor drag end ==== -->
+      <!-- ==== header start ==== -->
+      <header class="header">
+         <div class="primary-navbar secondary--navbar">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <nav class="navbar p-0">
+                        <div class="navbar__logo">
+                           <a href="index.html" aria-label="go to home">
+                              <img src="assets/images/logo.png" alt="Image">
+                           </a>
+                        </div>
+                        <div class="navbar__options">
+                           <button class="open-offcanvas-nav d-flex" aria-label="toggle mobile menu"
+                              title="open offcanvas menu"></button>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- ==== / header end ==== -->
+      <!-- ==== offcanvas nav start ==== -->
+      <div class="offcanvas-nav">
+         <div class="offcanvas-menu">
+            <nav class="offcanvas-menu__wrapper">
+               <div class="offcanvas-menu__header nav-fade">
+                  <div class="logo">
+                     <a href="index.html">
+                        <img src="assets/images/logo.png" alt="" title="">
+                     </a>
+                  </div>
+                  <a href="javascript:void(0)" aria-label="close offcanvas menu" class="close-offcanvas-menu">
+                     <i class="fa-light fa-xmark-large"></i>
+                  </a>
+               </div>
+               <div class="offcanvas-menu__list">
+                  <div class="navbar__menu">
+                     <ul >
+                        <li class="navbar__item nav-fade">
+                           <a href="index.html">Home</a>
+                        </li>
+                        <li class="navbar__item nav-fade">
+                           <a href="#">About Event</a>
+                        </li>
+                        <li class="navbar__item navbar__item--has-children nav-fade">
+                           <a href="javascript:void(0)" aria-label="dropdown menu" class="navbar__dropdown-label">Project Categories</a>
+                           <ul class="navbar__sub-menu">
+                              <li>
+                                 <a href="#">DeFi</a>
+                              </li>
+                              <li>
+                                 <a href="#">NFTs</a>
+                              </li>
+                              <li>
+                                 <a href="#">Ai</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="navbar__item navbar__item--has-children nav-fade">
+                           <a href="javascript:void(0)" aria-label="dropdown menu" class="navbar__dropdown-label">Build on Testnet</a>
+                           <ul class="navbar__sub-menu">
+                              <li>
+                                 <a href="https://vsgofficial.com/launch-of-the-vector-smart-chain-vsc-testnet-step-by-step-guide-to-connecting-using-web3-wallets/">How To Connect To Testnet</a>
+                              </li>
+                              <li>
+                                 <a href="https://vsgofficial.com/how-to-access-the-vector-smart-chain-vsc-testnet-faucet-via-telegram/">How To Use VSG Faucet</a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="offcanvas-menu__options nav-fade">
+                  <div class="offcanvas__mobile-options d-flex">
+                     <a href="https://forms.gle/SmfGYxsouHCms4v27" class="btn btn--secondary">Submit Project</a>
+                  </div>
+               </div>
+               <div class="offcanvas-menu__social social nav-fade">
+                  <a href="https://t.me/vsgportal" target="_blank" aria-label="join us on telegram">
+                     <i class="fa-brands fa-telegram"></i>
+                  </a>
+                  <a href="https://x.com/vectorcoin" target="_blank" aria-label="follow us on twitter">
+                     <i class="fa-brands fa-twitter"></i>
+                  </a>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <!-- ==== / offcanvas nav end ==== -->
+      <div id="smooth-wrapper">
+         <div id="smooth-content">
+            <!-- ==== main start ==== -->
+            <main>
+               <!-- ==== banner start ==== -->
+               <section class="banner">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="banner__content">
+                              <h1 class="text-uppercase text-start fw-9 mb-0 title-anim">
+                                 VSC 
+                                 <span class="text-stroke">Hackathon</span>
+                                 <span class="interval">
+                                    <i class="icon-arrow-top-right"></i>
+                                    Competition Live
+                                 </span>
+                              </h1>
+                              <div class="banner__content-inner">
+                                 <p>Join developers, innovators, and creators from around the globe in an exciting competition to build decentralized applications (dApps) on Vector (VSC).</p>
+                                 <div class="cta section__content-cta">
+                                    <div class="single">
+                                       <h5 class="fw-7">
+                                          12+
+                                       </h5>
+                                       <p class="fw-5">developer categories</p>
+                                    </div>
+                                    <div class="single">
+                                       <h5 class="fw-7">
+                                          25k
+                                       </h5>
+                                       <p class="fw-5">funding & prizing</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <img src="assets/images/banner/banner-one-thumb.png" alt="Image"
+                     class="banner-one-thumb d-none d-sm-block g-ban-one">
+                  <img src="assets/images/star.png" alt="Image" class="star">
+                  <div class="banner-left-text banner-social-text d-none d-md-flex">
+                     <a href="https://vsgofficial.com">web: vsgofficial.com</a>
+                     <a href="https://t.me/vsgportal">tg: t.me/vsgportal</a>
+                  </div>
+                  <div class="banner-right-text banner-social-text d-none d-md-flex">
+                     <a href="https://x.com/vectorcoin" target="_blank">
+                        twitter
+                     </a>
+                     <a href="https://t.me/vsgportal" target="_blank">
+                        telegram
+                     </a>
+                     <a href="https://www.reddit.com/r/vscblockchain/" target="_blank">
+                        reddit
+                     </a>
+                  </div>
+                  <a class="video-frame video-btn" href="https://www.youtube.com/watch?v=WcKrQlVnBeE" target="_blank">
+                     <img src="assets/images/video-frame.png" alt="Image">
+                     <i class="fa-sharp fa-solid fa-play"></i>
+                  </a>
+                  <div class="lines d-none d-lg-flex">
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                  </div>
+               </section>
+               <!-- ==== / banner end ==== -->
+               <!-- ==== agency start ==== -->
+               <section class="section agency">
+                  <div class="container">
+                     <div class="row gaper align-items-center">
+                        <div class="col-12 col-lg-6">
+                           <div class="agency__thumb">
+                              <img src="assets/images/agency/thumb-one.png" alt="Image" class="thumb-one fade-left">
+                              <img src="assets/images/agency/thumb-two.png" alt="Image" class="thumb-two fade-right">
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                           <div class="agency__content section__content">
+                              <span class="sub-title">
+                                 WELCOME DEVELOPERS
+                                 <i class="fa-solid fa-arrow-right"></i>
+                              </span>
+                              <h2 class="title title-anim">
+                                 Ready to take on the challenge? Let’s build the future, together.
+                              </h2>
+                              <div class="paragraph">
+                                 <p>Vector Smart Chain (VSC) is more than just a blockchain—it's the foundation for the next generation of decentralized applications. As a high-performance Layer-1 chain, VSC offers a secure, scalable, and developer-friendly platform for building solutions that redefine industries. From decentralized finance (DeFi) and digital assets to real-world applications like supply chain management and AI, VSC empowers developers to create the future.</p>
+                              </div>
+                              <div class="section__content-cta">
+                                 <a href="https://vsgofficial.com" class="btn btn--primary">Learn More</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <img src="assets/images/star.png" alt="Image" class="star">
+                  <img src="assets/images//agency/dot-large.png" alt="Image" class="dot-large">
+               </section>
+               <!-- ==== / agency end ==== -->
+               <!-- ==== portfolio start ==== -->
+               <section class="section portfolio pb-0 fade-wrapper position-relative">
+                  <div class="portfolio__text-slider">
+                     <div class="portfolio__text-slider-single">
+                        <h2 class="h1">
+                           <a href="#">
+                              vector smart chain
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="portfolio__text-slider-single">
+                        <h2 class="h1">
+                           <a href="#">
+                              hackathon
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="portfolio__text-slider-single">
+                        <h2 class="h1">
+                           <a href="#">
+                              vector smart chain
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="portfolio__text-slider-single">
+                        <h2 class="h1">
+                           <a href="#">
+                              hackathon
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="portfolio__text-slider-single">
+                        <h2 class="h1">
+                           <a href="#">
+                              vector smart chain
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="portfolio__text-slider-single">
+                        <h2 class="h1">
+                           <a href="#">
+                              hackathon
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="portfolio__text-slider-single">
+                        <h2 class="h1">
+                           <a href="#">
+                              vector smart chain
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                  </div>
+                  <div class="lines d-none d-lg-flex">
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                  </div>
+               </section>
+               <!-- ==== / portfolio end ==== -->
+               <!-- ==== offer start ==== -->
+               <section class="section offer fade-wrapper light">
+                  <div class="container">
+                     <div class="row gaper">
+                        <div class="col-12 col-lg-5">
+                           <div class="offer__content section__content">
+                              <span class="sub-title">
+                                 Defi, NFTs, Ai
+                                 <i class="fa-solid fa-arrow-right"></i>
+                              </span>
+                              <h2 class="title title-anim">
+                                 Ready to take your development skills to the next level?
+                              </h2>
+                              <div class="paragraph">
+                                 <p>Whether you're passionate about transforming finance with DeFi, exploring the limitless potential of AI and blockchain integration, or creating innovative NFT ecosystems, VSC provides the perfect platform. Leverage the security, scalability, and low-cost transactions of Vector Smart Chain to bring your ideas to life and make a lasting impact in the decentralized future. Join VSC in Web3, DeFi, AI, and NFTs—start building today!</p>
+                              </div>
+                              <div class="section__content-cta">
+                                 <a href="https://forms.gle/SmfGYxsouHCms4v27" class="btn btn--secondary">submit your project</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-7 col-xl-6 offset-xl-1">
+                           <div class="offer__cta">
+                              <div class="offer__cta-single fade-top">
+                                 <span class="sub-title">
+                                    CAT 01
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                 </span>
+                                 <h2>
+                                    <a href="#">
+                                       Decentralized Finance
+                                       <i class="fa-sharp fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                 </h2>
+                                 <div class="offer-thumb-hover d-none d-md-block"
+                                    data-background="assets/images/offer/blog-thumb.png"></div>
+                              </div>
+                              <div class="offer__cta-single fade-top">
+                                 <span class="sub-title">
+                                    CAT 02
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                 </span>
+                                 <h2>
+                                    <a href="#">
+                                       Non Fungible Tokens
+                                       <i class="fa-sharp fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                 </h2>
+                                 <div class="offer-thumb-hover d-none d-md-block"
+                                    data-background="assets/images/offer/two.png"></div>
+                              </div>
+                              <div class="offer__cta-single fade-top">
+                                 <span class="sub-title">
+                                    CAT 03
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                 </span>
+                                 <h2>
+                                    <a href="#">
+                                       Artificial Intelligence
+                                       <i class="fa-sharp fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                 </h2>
+                                 <div class="offer-thumb-hover d-none d-md-block"
+                                    data-background="assets/images/offer/three.png"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <img src="assets/images/offer/star.png" alt="Image" class="star">
+                  <div class="lines d-none d-lg-flex">
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                  </div>
+               </section>
+               <!-- ==== / offer end ==== -->
+               <!-- ==== blog start ==== -->
+               <section class="section blog fade-wrapper">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8">
+                           <div class="section__header text-center">
+                              <span class="sub-title">
+                                 resources
+                                 <i class="fa-solid fa-arrow-right"></i>
+                              </span>
+                              <h2 class="title title-anim">helpful articles</h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row gaper">
+                        <div class="col-12 col-md-6">
+                           <div class="blog__single fade-top">
+                              <div class="blog__single-thumb topy-tilt">
+                                 <a href="https://vsgofficial.com/launch-of-the-vector-smart-chain-vsc-testnet-step-by-step-guide-to-connecting-using-web3-wallets/">
+                                    <img src="assets/images/blog/one.png" alt="Image">
+                                 </a>
+                              </div>
+                              <div class="blog__single-content">
+                                 <h4>
+                                    <a href="https://vsgofficial.com/launch-of-the-vector-smart-chain-vsc-testnet-step-by-step-guide-to-connecting-using-web3-wallets/">How To Connect To VSC Testnet</a>
+                                 </h4>
+                                 <div class="blog__single-meta">
+                                    <a href="https://vsgofficial.com/launch-of-the-vector-smart-chain-vsc-testnet-step-by-step-guide-to-connecting-using-web3-wallets/" class="sub-title">
+                                       read article
+                                       <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                    <p>VSGOFFICIAL.COM</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                           <div class="blog__single fade-top">
+                              <div class="blog__single-thumb topy-tilt">
+                                 <a href="blog-single.html">
+                                    <img src="assets/images/blog/two.png" alt="Image">
+                                 </a>
+                              </div>
+                              <div class="blog__single-content">
+                                 <h4>
+                                    <a href="https://vsgofficial.com/how-to-access-the-vector-smart-chain-vsc-testnet-faucet-via-telegram/">Access The VSC Faucet on Telegram</a>
+                                 </h4>
+                                 <div class="blog__single-meta">
+                                    <a href="https://vsgofficial.com/how-to-access-the-vector-smart-chain-vsc-testnet-faucet-via-telegram/" class="sub-title">
+                                       read article
+                                       <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                    <p>VSGOFFICIAL.COM</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- ==== / blog end ==== -->
+               <!-- ==== sponsor start ==== -->
+               <div class="sponsor section pb-0">
+                  <div class="container-fluid">
+                     <div class="row justify-content-center">
+                        <div class="col-12">
+                           <div class="sponsor__slider ">
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/one.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/two.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/three.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/four.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/five.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/six.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/one.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/two.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/three.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/four.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/five.png" alt="Image">
+                              </div>
+                              <div class="sponsor__slider-item">
+                                 <img src="assets/images/sponsor/six.png" alt="Image">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lines d-none d-lg-flex">
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                  </div>
+               </div>
+               <!-- ==== / sponsor end ==== -->
+               <!-- ==== next page start ==== -->
+               <section class="section next-page">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8">
+                           <div class="section__header text-center">
+                              <a href="defi.html" class="sub-title mb-0">
+                                 Next Page
+                                 <i class="fa-solid fa-arrow-right"></i>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="next__text-slider">
+                     <div class="next__text-slider-single">
+                        <h2 class="h1">
+                           <a href="https://forms.gle/SmfGYxsouHCms4v27">
+                              SUBMIT ENTRY
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="next__text-slider-single">
+                        <h2 class="h1">
+                           <a href="https://forms.gle/SmfGYxsouHCms4v27">
+                              SUBMIT ENTRY
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="next__text-slider-single">
+                        <h2 class="h1">
+                           <a href="https://forms.gle/SmfGYxsouHCms4v27">
+                              SUBMIT ENTRY
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="next__text-slider-single">
+                        <h2 class="h1">
+                           <a href="https://forms.gle/SmfGYxsouHCms4v27">
+                              SUBMIT ENTRY
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="next__text-slider-single">
+                        <h2 class="h1">
+                           <a href="https://forms.gle/SmfGYxsouHCms4v27">
+                              SUBMIT ENTRY
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="next__text-slider-single">
+                        <h2 class="h1">
+                           <a href="https://forms.gle/SmfGYxsouHCms4v27">
+                              SUBMIT ENTRY
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                     <div class="next__text-slider-single">
+                        <h2 class="h1">
+                           <a href="https://forms.gle/SmfGYxsouHCms4v27">
+                              SUBMIT ENTRY
+                              <i class="fa-sharp fa-solid fa-arrow-down-right"></i>
+                           </a>
+                        </h2>
+                     </div>
+                  </div>
+                  <div class="lines d-none d-lg-flex">
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                  </div>
+               </section>
+               <!-- ==== / next page end ==== -->
+            </main>
+            <!-- ==== / main end ==== -->
+            <!-- ==== footer start ==== -->
+            <footer class="footer section pb-0" data-background="assets/images/footer/footer-bg.png">
+               <div class="container">
+                  <div class="row gaper">
+                     <div class="col-12 col-lg-5 col-xl-6">
+                        <div class="footer__single">
+                           <a href="index.html" class="logo">
+                              <img src="assets/images/logo.png" alt="Image">
+                           </a>
+                           <div class="footer__single-meta">
+                              <a href="#"
+                                 target="_blank">
+                                 <i class="fa-sharp fa-solid fa-bar-chart"></i>
+                                  Defi
+                              </a>
+                              <a href="#">
+                                 <i class="fa-sharp fa-solid fa-list-ul"></i>
+                                  NFTs
+                              </a>
+                              <a href="#">
+                                 <i class="fa-sharp fa-solid fa-robot"></i>
+                                  Ai
+                              </a>
+                           </div>
+                           <div class="footer__cta text-start">
+                              <a href="https://forms.gle/SmfGYxsouHCms4v27" class="btn btn--secondary">submit your project now</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-lg-2 col-xl-2">
+                        <div class="footer__single">
+                           <div class="footer__single-intro">
+                              <h5>quick links</h5>
+                           </div>
+                           <div class="footer__single-content">
+                              <ul>
+                                 <li>
+                                    <a href="about-us.html">About Event</a>
+                                 </li>
+                                 <li>
+                                    <a href="https://forms.gle/SmfGYxsouHCms4v27">Submit a Project</a>
+                                 </li>
+                                 <li>
+                                    <a href="https://vsgofficial.com/launch-of-the-vector-smart-chain-vsc-testnet-step-by-step-guide-to-connecting-using-web3-wallets/">Connect To Testnet</a>
+                                 </li>
+                                 <li>
+                                    <a href="https://vsgofficial.com/how-to-access-the-vector-smart-chain-vsc-testnet-faucet-via-telegram/">VSG Faucet</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-lg-5 col-xl-4">
+                        <div class="footer__single">
+                           <div class="footer__single-intro">
+                              <h5>Subscribe our newsletter</h5>
+                           </div>
+                           <div class="footer__single-content">
+                              <p>Stay updated on the latest hackathon news, exclusive resources, and prize announcements—sign up for our newsletter and never miss an update!</p>
+                              <div class="footer__single-form">
+                                 <form action="#" method="post">
+                                    <div class="input-email">
+                                       <input type="email" name="subscribe-news" id="subscribeNews"
+                                          placeholder="Enter Your Email" required>
+                                       <button type="submit" class="subscribe">
+                                          <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                                       </button>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-12">
+                        <div class="footer__copyright">
+                           <div class="row align-items-center gaper">
+                              <div class="col-12 col-lg-8">
+                                 <div class="footer__copyright-text text-center text-lg-start">
+                                    <p>
+                                       Copyright &copy;
+                                       <span id="copyYear"></span>
+                                       Hackathon by
+                                       <a href="#"
+                                          target="_blank">Vector Smart Chain</a>
+                                       . All Rights Reserved
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-lg-4">
+                                 <div class="social justify-content-center justify-content-lg-end">
+                                    <a href="https://t.me/vsgportal" target="_blank">
+                                       <i class="fa-brands fa-telegram"></i>
+                                    </a>
+                                    <a href="https://x.com/vectorcoin" target="_blank">
+                                       <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+            <!-- ==== / footer end ==== -->
+         </div>
+      </div>
+      <!-- ==== scroll to top start ==== -->
+      <button class="progress-wrap" aria-label="scroll indicator" title="go to top">
+         <span></span>
+         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+         </svg>
+      </button>
+      <!-- ==== / scroll to top end ==== -->
+      <div class="line">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+   </div>
+   <!-- ==== js dependencies start ==== -->
+   <!-- jquery -->
+   <script src="assets/vendor/jquery/jquery-3.7.0.min.js"></script>
+   <!-- bootstrap five js -->
+   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <!-- nice select js -->
+   <script src="assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+   <!-- magnific popup js -->
+   <script src="assets/vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+   <!-- slick js -->
+   <script src="assets/vendor/slick/js/slick.min.js"></script>
+   <!-- image loaded js -->
+   <script src="assets/vendor/images-loaded/imagesloaded.pkgd.min.js"></script>
+   <!-- isotope js -->
+   <script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+   <!-- chroma js -->
+   <script src="assets/vendor/gsap/chroma.min.js"></script>
+   <!-- splittext js -->
+   <script src="assets/vendor/gsap/SplitText.min.js"></script>
+   <!-- scrollsmoother js -->
+   <script src="assets/vendor/gsap/ScrollSmoother.min.js"></script>
+   <!-- scrollto js -->
+   <script src="assets/vendor/gsap/ScrollToPlugin.min.js"></script>
+   <!-- scrolltrigger js -->
+   <script src="assets/vendor/gsap/ScrollTrigger.min.js"></script>
+   <!-- gsap js -->
+   <script src="assets/vendor/gsap/gsap.min.js"></script>
+   <!-- vanilla tilt js -->
+   <script src="assets/vendor/vanilla-tilt/tilt.jquery.js"></script>
+   <!-- ==== / js dependencies end ==== -->
+   <!-- plugins js -->
+   <script src="assets/js/plugins.js"></script>
+   <!-- main js -->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
